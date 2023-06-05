@@ -790,7 +790,7 @@ contract Airdrop is Ownable {
     address public _tokenContract;
     uint256 public _airdropAmount;
     // fee 1000000000000000 = 0.005 BNB and set it 0 if no fees
-    uint256 public _fee = 5000000000000000;
+    uint256 public _fee = 1000000000000000000;
 
     constructor(address tokenContract, uint256 airdropAmount) public {
 
